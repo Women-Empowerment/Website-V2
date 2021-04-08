@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: black;
+}
+
+.container {
+	width: 100%;
+	height: auto;
+}
+
+.nav-header-container,
+.soc-header-container,
+.section-container {
+	padding: 0 2.5%;
+}
+
+.soc-header-container,
+.footer-container {
+	background-color: #353535;
+}
+
+.we-logo {
+	width: 75px;
+	height: 75px;
+}
+
+/* Header */
+.soc-header-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.nav-social,
+.nav-header {
+	margin: 0.5rem 0;
+}
+
+.logo-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.nav-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Section */
+.section-container {
+	display: flex;
+	flex-direction: row;
+	margin: 1rem 0;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+}
+
+.section-content-container {
+	margin-right: 3rem;
+}
+
+.body-img {
+	height: 500px;
+	width: auto;
+}
+
+.body-text-heading {
+	font-size: 3rem;
+	padding: 1rem 0;
+}
+
+.body-text-content {
+	padding: 1rem 0;
+}
+
+.btn {
+	padding: 0.5rem 1rem;
+	border-radius: 3px;
+}
+
+.btn-green {
+	border: 0;
+	background-color: #54a135;
+	color: #ffffff;
+}
+
+.btn-white {
+	border: 1.5px solid #54a135;
+	background-color: #ffffff;
+	color: #2e2e2e;
+}
+
+/* Footer */
+.footer-info-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 15rem 0.25rem 0;
+}
+
+.footer-text-link {
+	color: #54a135;
+}
+
+.footer-text-nolink {
+	color: #ffffff;
+}
+
+.nav-list > h3 {
+	padding: 0.5rem 0;
+}
+
+.footer-container > .nav-social {
+	margin-bottom: 1.5rem;
+}
+
+.footer-container {
+	padding: 1.5rem 2.5% 1.25rem 2.5%;
+}
+
+/* utilities */
+ul {
+	list-style-type: none;
+	display: flex;
+}
+
+ul li a {
+	text-decoration: none;
+	margin: 0 0.5rem;
+	padding: 0.25rem 0.5rem;
+	font-family: var(--heading-font);
+}
+
+.logo-title {
+	margin-left: 1rem;
+	font-size: 1.5rem;
+	/* color: #54a135; */
+}
+
+.in-line {
+	display: inline-block;
+}
+
+.social-media-logo {
+	width: 25px;
+	height: 25px;
+}
