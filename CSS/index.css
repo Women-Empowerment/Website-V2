@@ -10,6 +10,7 @@
 	height: auto;
 }
 
+.about-section-container,
 .nav-header-container,
 .soc-header-container,
 .section-container {
@@ -151,4 +152,8 @@ ul li a {
 .social-media-logo {
 	width: 25px;
 	height: 25px;
+}
+
+.center-text {
+	text-align: center;
 }

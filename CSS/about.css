@@ -1,0 +1,81 @@
+/* About us, mission, journey */
+
+.section-aboutus-container,
+.section-mission-container,
+.section-journey-container {
+	display: flex;
+	flex-direction: row;
+	margin: 0.5rem 7rem;
+}
+
+.mission-content-container,
+.aboutus-content-container,
+.journey-content-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.h1-content-container {
+	margin-bottom: 1rem;
+}
+
+.img-laptop {
+	width: 400px;
+	height: 350px;
+}
+
+/* TEAM */
+.team-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.team-member-img {
+	width: 250px;
+	height: 300px;
+	object-fit: cover; /*prevent stretch*/
+}
+
+.team-member-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 1rem 0;
+}
+
+.social-media-logo-team {
+	width: 20px;
+	height: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+/* utilities */
+.left-margin {
+	margin-left: 2.5rem;
+}
+
+.right-margin {
+	margin-right: 2.5rem;
+}
+
+.margin-team-heading {
+	margin: 2rem 0;
+}
+
+.margin-team-subheading {
+	margin: 0.5rem 0;
+}
+
+.padding-top-sm {
+	padding-top: 0.5rem;
+}
+
+.padding-bottom-sm {
+	padding-bottom: 0.5rem;
+}
