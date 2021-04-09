@@ -1,0 +1,54 @@
+/* Set the size of the div element that contains the map */
+#map {
+	height: 400px;
+	/* The height is 400 pixels */
+	width: 55%;
+	/* The width is the width of the web page */
+}
+
+.contact-content-container {
+	display: flex;
+	flex-direction: row;
+	margin: 3rem 8rem;
+}
+
+.contact-info-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1.5rem 3rem;
+	background-color: #3b3b3b;
+}
+
+.contact-soc-media-logo {
+	width: 20px;
+	height: 20px;
+}
+
+.white-text-color {
+	color: #fff;
+}
+
+.contact-soc-media-spacing {
+	margin: 0;
+	padding: 0;
+	padding-right: 1rem;
+}
+
+.contact-margin-top {
+	margin-top: 1rem;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.icon-text-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.margin-left {
+	margin-left: 0.75rem;
+}
