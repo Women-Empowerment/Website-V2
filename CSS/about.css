@@ -38,6 +38,38 @@
 	width: 250px;
 	height: 300px;
 	object-fit: cover; /*prevent stretch*/
+
+	transition: 1s; /* add effect to brightness of img when hover*/
+	filter: brightness(100%);
+}
+
+.img-text-block {
+	position: absolute;
+	left: 10%;
+	right: 10%;
+	bottom: 20px;
+	background-color: white;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	visibility: hidden;
+	opacity: 0;
+	/* transition: visibility 0s, opacity 0.5s linear; */
+	transition: all 0.3s ease-out;
+}
+
+.team-member-img-container {
+	position: relative;
+}
+
+.team-member-img-container:hover .img-text-block {
+	visibility: visible;
+	opacity: 1;
+}
+
+.team-member-img-container:hover .team-member-img {
+	/* transition: 1s ease-in-out; */
+	filter: brightness(50%);
 }
 
 .team-member-card {
