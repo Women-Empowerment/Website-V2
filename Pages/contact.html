@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/CSS/contact.css">
     <link rel="icon" href="/images/WE program.png" type="image/png">
     <script src="/JS/contact.js"></script>
-    <script src="/api.js"></script>
+    <!-- <script src="/api.js"></script> -->
     <script src="https://kit.fontawesome.com/9e1ea52b25.js" crossorigin="anonymous"></script>
     <title>Contact</title>
 </head>
@@ -39,7 +39,14 @@
                     </div>
                     <ul>
                         <li><a class="nCurrent" href="/index.html">Home</a></li>
-                        <li><a class="nCurrent" href="/Pages/about.html">About</a></li>
+                        <li class="dropdown">
+                            <a>About</a>
+                            <div class="dropdown-content">
+                                <a class="nCurrent dropbtn" href="/Pages/about.html">About Us</a>
+                                <a class="nCurrent dropbtn" href="/Pages/about.html">Mission</a>
+                                <a class="nCurrent dropbtn" href="/Pages/about.html">Our Journey</a>
+                            </div>
+                        </li>
                         <li><a class="nCurrent" href="/Pages/sponsor.html">Sponsors</a></li>
                         <li><a class="nCurrent" href="/Pages/contact.html">Contact</a></li>
                         <li><a class="current" href="/Pages/register.html">Register</a></li>
@@ -84,8 +91,16 @@
                                         src="/images/linkedin-green.png" alt="linkedin"></a></li>
                         </ul>
                     </div>
-                    <div id="map"></div>
+                    <!-- <div id="map"></div> -->
+                    <a target="_blank"
+                        href="https://www.google.com/maps/place/University+of+Wollongong+in+Dubai+(UOWD)/@25.101547,55.1606414,17z/data=!3m1!4b1!4m5!3m4!1s0x3e5f6b6b665006a3:0x84337ef2f5567aa5!8m2!3d25.101547!4d55.1628301"><img
+                            id="map" src="/images/UOWD location.jpg"
+                            alt="UOWD Building - Dubai"></a>
                 </div>
+                <!-- Use Google Static Map Maker -->
+                <!-- <a target="_blank" href="https://www.google.com/maps/place/University+of+Wollongong+in+Dubai+(UOWD)/@25.101547,55.1606414,17z/data=!3m1!4b1!4m5!3m4!1s0x3e5f6b6b665006a3:0x84337ef2f5567aa5!8m2!3d25.101547!4d55.1628301"><img
+                        src="https://maps.googleapis.com/maps/api/staticmap?center=University+of+Wollongong+in+Dubai+(UOWD),+UOWD+Building+-+Dubai&zoom=13&scale=1&size=600x300&maptype=roadmap&key=AIzaSyA0hH7pDrmk3s4hvVnpiqn6QhRUbmX_dTc&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7CUOWD,+Dubai"
+                        alt="UOWD Building - Dubai"></a> -->
             </div>
         </section>
 
