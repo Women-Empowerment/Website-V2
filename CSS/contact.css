@@ -1,11 +1,12 @@
 /* Set the size of the div element that contains the map */
 #map {
-	height: 400px;
+	height: 100%;
 	width: 100%;
-	/* The height is 400 pixels */
-	/* width: 55%; */
 	object-fit: cover;
-	/* The width is the width of the web page */
+}
+
+.white-text-color {
+	color: #fff;
 }
 
 .contact-content-container {
@@ -19,30 +20,16 @@
 	flex-direction: column;
 	justify-content: center;
 	padding: 1.5rem 3rem;
+	width: 50%;
 	background-color: #3b3b3b;
 }
 
-.contact-soc-media-logo {
-	width: 20px;
-	height: 20px;
-}
-
-.white-text-color {
-	color: #fff;
-}
-
-.contact-soc-media-spacing {
-	margin: 0;
-	padding: 0;
-	padding-right: 1rem;
+.contact-map-container {
+	width: 50%;
 }
 
 .contact-margin-top {
 	margin-top: 1rem;
-}
-
-.inline-block {
-	display: inline-block;
 }
 
 .icon-text-container {
@@ -54,3 +41,17 @@
 .margin-left {
 	margin-left: 0.75rem;
 }
+
+.inline-block {
+	display: inline-block;
+}
+/* .contact-soc-media-logo {
+	width: 20px;
+	height: 20px;
+} */
+
+/* .contact-soc-media-spacing {
+	margin: 0;
+	padding: 0;
+	padding-right: 1rem;
+} */
