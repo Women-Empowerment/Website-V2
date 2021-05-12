@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/CSS/index.css">
     <link rel="icon" href="/images/WE program.png" type="image/png">
     <title>Home</title>
+    <script src="https://kit.fontawesome.com/9e1ea52b25.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -14,10 +15,14 @@
             <div class="soc-header-container">
                 <nav class="nav-social">
                     <ul>
-                        <li><a href="#" target="_blank"><img class="social-media-logo" src="/images/instagram.png" alt="instagram"></a></li>
-                        <li><a href="#" target="_blank"><img class="social-media-logo" src="/images/twitter.png" alt="twitter"></a></li>
-                        <li><a href="#" target="_blank"><img class="social-media-logo" src="/images/facebook.png" alt="facebook"></a></li>
-                        <li><a href="https://www.linkedin.com/company/we-uae/" target="_blank"><img class="social-media-logo" src="/images/linkedin.png" alt="linkedin"></a></li>
+                        <li><a href="#" target="_blank" class="header-social"><img class="social-media-logo"
+                                    src="/images/twitter.png" alt="twitter"></a></li>
+                        <li><a href="#" target="_blank" class="header-social"><img class="social-media-logo"
+                                    src="/images/instagram.png" alt="instagram"></a></li>
+                        <li><a href="#" target="_blank" class="header-social"><img class="social-media-logo"
+                                    src="/images/facebook.png" alt="facebook"></a></li>
+                        <li><a href="https://www.linkedin.com/company/we-uae/" target="_blank" class="header-social"><img
+                                    class="social-media-logo" src="/images/linkedin.png" alt="linkedin"></a></li>
                     </ul>
                 </nav>
             </div>
@@ -32,18 +37,18 @@
                         </a>
                     </div>
                     <ul>
-                        <li><a class="nCurrent" href="/index.html">Home</a></li>
+                        <li><a href="/index.html" class="nav-item">Home</a></li>
                         <li class="dropdown">
-                            <a>About</a>
+                            <a class="nav-item">About Us <i class="fas fa-caret-down"></i></a>
                             <div class="dropdown-content">
-                                <a class="nCurrent dropbtn" href="/Pages/about.html">About Us</a>
-                                <a class="nCurrent dropbtn" href="/Pages/about.html">Mission</a>
-                                <a class="nCurrent dropbtn" href="/Pages/about.html">Our Journey</a>
+                                <a class="nCurrent dropbtn" href="/Pages/about.html">Who We Are</a>
+                                <a class="nCurrent dropbtn" href="/Pages/journey.html">Our Journey</a>
+                                <a class="nCurrent dropbtn" href="/Pages/team.html">Our Team</a>
                             </div>
                         </li>
-                        <li><a class="nCurrent" href="/Pages/sponsor.html">Sponsors</a></li>
-                        <li><a class="nCurrent" href="/Pages/contact.html">Contact</a></li>
-                        <li><a class="current" href="/Pages/register.html">Register</a></li>
+                        <li><a href="/Pages/sponsor.html" class="nav-item">Sponsors</a></li>
+                        <li><a href="/Pages/register.html" class="nav-item">Register</a></li>
+                        <li><a href="/Pages/contact.html" class="nav-item">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -60,8 +65,8 @@
                     unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
                     recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                     </p>
-                    <button class="btn btn-green">Contact us</button>
-                    <button class="btn btn-white">Learn more</button>
+                    <button class="btn btn-colored ">Contact us</button>
+                    <button class="btn btn-white margin-left-md">Learn more</button>
                 </div>
                 <img class="body-img" src="/images/WOmen.jpg" alt="Women">
             </div>
@@ -69,36 +74,53 @@
 
         <footer>
             <div class="footer-container">
-                <div class="footer-info-container">
-                    <div class="logo-container">
-                        <img class="we-logo" src="/images/WE program.png" alt="women empowerment logo">
-                        <h1 class="logo-title in-line footer-text-link">Women <br>Empowerment</h1>
+                <div class="footer-content-container">
+                    <div class="footer-left-content-container">
+                        <div class="logo-container">
+                            <a href="/index.html">
+                                <img class="we-logo" src="/images/WE program.png" alt="women empowerment logo">
+                            </a>
+                            <a href="/index.html">
+                                <h1 class="logo-title in-line golden-color">Women <br>Empowerment</h1>
+                            </a>
+                        </div>
+                        <nav class="nav-social">
+                            <ul>
+        
+                                <li><a href="#" target="_blank" class="footer-social"><img class="social-media-logo"
+                                            src="/images/twitter.png" alt="twitter"></a>
+                                </li>
+                                <li><a href="#" target="_blank" class="footer-social"><img class="social-media-logo"
+                                            src="/images/instagram.png" alt="instagram"></a>
+                                </li>
+                                <li><a href="#" target="_blank" class="footer-social"><img class="social-media-logo"
+                                            src="/images/facebook.png" alt="facebook"></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/company/we-uae/" target="_blank"
+                                        class="footer-social"><img class="social-media-logo" src="/images/linkedin.png"
+                                            alt="linkedin"></a></li>
+                            </ul>
+                        </nav>
+                        <h3 class="golden-color">© 2021 Women Empowerment</h3>
                     </div>
-                    <div class="nav-list">
-                        <h3 class="footer-text-link">Home</h3>
-                        <h3 class="footer-text-link">Features</h3>
-                        <h3 class="footer-text-link">Pricing</h3>
-                    </div>
-                    <div class="nav-list">
-                        <h3 class="footer-text-link">Home</h3>
-                        <h3 class="footer-text-link">Features</h3>
-                        <h3 class="footer-text-link">Pricing</h3>
-                    </div>
-                    <div class="nav-list">
-                        <h3 class="footer-text-nolink">UOWD - Building, Dubai Knowledge Village</h3>
-                        <h3 class="footer-text-nolink">+971543454345</h3>
-                        <h3 class="footer-text-link">women-empowerment@gmail.com</h3>
+                    <div class="footer-right-content-container">
+                        <div class="nav-list">
+                            <h3>Home</h3>
+                            <h3>Features</h3>
+                            <h3>Pricing</h3>
+                        </div>
+                        <div class="nav-list">
+                            <h3>Home</h3>
+                            <h3>Features</h3>
+                            <h3>Pricing</h3>
+                        </div>
+                        <div class="nav-list">
+                            <h3>UOWD - Building, Dubai Knowledge Village</h3>
+                            <h3>+971543454345</h3>
+                            <h3>women-empowerment@gmail.com</h3>
+                        </div>
                     </div>
                 </div>
-                <nav class="nav-social">
-                    <ul>
-                        <li><a href="#" target="_blank"><img class="social-media-logo" src="/images/instagram-green.png" alt="instagram"></a></li>
-                        <li><a href="#" target="_blank"><img class="social-media-logo" src="/images/twitter-green.png" alt="twitter"></a></li>
-                        <li><a href="#" target="_blank"><img class="social-media-logo" src="/images/facebook-green.png" alt="facebook"></a></li>
-                        <li><a href="https://www.linkedin.com/company/we-uae/" target="_blank"><img class="social-media-logo" src="/images/linkedin-green.png" alt="linkedin"></a></li>
-                    </ul>
-                </nav>
-                <h3 class="footer-text-nolink">© 2021 Women Empowerment</h3>
             </div>
         </footer>
     </div>
