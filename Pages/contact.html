@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="/CSS/contact.css">
     <link rel="icon" href="/images/WE program.png" type="image/png">
     <script src="/JS/contact.js"></script>
-    <!-- <script src="/api.js"></script> -->
     <script src="https://kit.fontawesome.com/9e1ea52b25.js" crossorigin="anonymous"></script>
     <title>Contact</title>
 </head>
@@ -20,13 +19,13 @@
             <div class="soc-header-container">
                 <nav class="nav-social">
                     <ul>
-                        <li><a href="#" target="_blank"><img class="social-media-logo" src="/images/instagram.png"
-                                    alt="instagram"></a></li>
-                        <li><a href="#" target="_blank"><img class="social-media-logo" src="/images/twitter.png"
-                                    alt="twitter"></a></li>
-                        <li><a href="#" target="_blank"><img class="social-media-logo" src="/images/facebook.png"
-                                    alt="facebook"></a></li>
-                        <li><a href="https://www.linkedin.com/company/we-uae/" target="_blank"><img
+                        <li><a href="#" target="_blank" class="header-social"><img class="social-media-logo"
+                                    src="/images/twitter.png" alt="twitter"></a></li>
+                        <li><a href="#" target="_blank" class="header-social"><img class="social-media-logo"
+                                    src="/images/instagram.png" alt="instagram"></a></li>
+                        <li><a href="#" target="_blank" class="header-social"><img class="social-media-logo"
+                                    src="/images/facebook.png" alt="facebook"></a></li>
+                        <li><a href="https://www.linkedin.com/company/we-uae/" target="_blank" class="header-social"><img
                                     class="social-media-logo" src="/images/linkedin.png" alt="linkedin"></a></li>
                     </ul>
                 </nav>
@@ -42,18 +41,18 @@
                         </a>
                     </div>
                     <ul>
-                        <li><a class="nCurrent" href="/index.html">Home</a></li>
+                        <li><a href="/index.html" class="nav-item">Home</a></li>
                         <li class="dropdown">
-                            <a>About</a>
+                            <a class="nav-item">About Us <i class="fas fa-caret-down"></i></a>
                             <div class="dropdown-content">
-                                <a class="nCurrent dropbtn" href="/Pages/about.html">About Us</a>
-                                <a class="nCurrent dropbtn" href="/Pages/about.html">Mission</a>
-                                <a class="nCurrent dropbtn" href="/Pages/about.html">Our Journey</a>
+                                <a class="nCurrent dropbtn" href="/Pages/about.html">Who We Are</a>
+                                <a class="nCurrent dropbtn" href="/Pages/journey.html">Our Journey</a>
+                                <a class="nCurrent dropbtn" href="/Pages/team.html">Our Team</a>
                             </div>
                         </li>
-                        <li><a class="nCurrent" href="/Pages/sponsor.html">Sponsors</a></li>
-                        <li><a class="nCurrent" href="/Pages/contact.html">Contact</a></li>
-                        <li><a class="current" href="/Pages/register.html">Register</a></li>
+                        <li><a href="/Pages/sponsor.html" class="nav-item">Sponsors</a></li>
+                        <li><a href="/Pages/register.html" class="nav-item">Register</a></li>
+                        <li><a href="/Pages/contact.html" class="nav-item">Contact Us</a></li>
                     </ul>
                 </nav>
             </div>
@@ -63,28 +62,30 @@
             <div class="contact-section-container">
                 <div class="contact-content-container">
                     <div class="contact-info-container">
-                        <h1 class="white-text-color">Contact Us</h1>
+                        <h1 class="white-text-color" style="font-weight: bold; font-size: 2.25rem;">Contact Us</h1>
                         <p class="white-text-color contact-margin-top">
                             This is a block description. To edit, click and type the text or replace it 
                             with your custom contents
                         </p>
-                        <div class="icon-text-container contact-margin-top">
-                            <i class="fas fa-map-marker-alt contact-soc-media-logo white-text-color"></i>
-                            <h3 class="inline-block margin-left white-text-color">UOWD - Building, Dubai Knowledge Village</h3>
+                        <div style="margin: 1rem 0;">
+                            <div class="icon-text-container contact-margin-top">
+                                <i class="fas fa-map-marker-alt contact-soc-media-logo white-text-color"></i>
+                                <p class="inline-block margin-left white-text-color">UOWD - Building, Dubai Knowledge Village</p>
+                            </div>
+                            <div class="icon-text-container contact-margin-top">
+                                <i class="fas fa-phone-alt contact-soc-media-logo white-text-color""></i>
+                                                        <p class=" inline-block margin-left white-text-color">+971563456543</p>
+                            </div>
+                            <div class="icon-text-container contact-margin-top">
+                                <i class="fas fa-envelope contact-soc-media-logo white-text-color"></i>
+                                <p class="inline-block margin-left white-text-color">women.empowerment@gmail.com</p>
+                            </div>
+                            <div class="icon-text-container contact-margin-top">
+                                <i class="fas fa-clock contact-soc-media-logo white-text-color"></i>
+                                <p class="inline-block margin-left white-text-color">Sun: Closed, Mon-Fri: 8 AM - 6 PM, Sat: 10 AM - 4 PM</p>
+                            </div>
                         </div>
-                        <div class="icon-text-container contact-margin-top">
-                            <i class="fas fa-phone-alt contact-soc-media-logo white-text-color""></i>
-                            <h3 class="inline-block margin-left white-text-color">+971563456543</h3>
-                        </div>
-                        <div class="icon-text-container contact-margin-top">
-                            <i class="fas fa-envelope contact-soc-media-logo white-text-color"></i>
-                            <h3 class="inline-block margin-left white-text-color">women.empowerment@gmail.com</h3>
-                        </div>
-                        <div class="icon-text-container contact-margin-top">
-                            <i class="fas fa-clock contact-soc-media-logo white-text-color"></i>
-                            <h3 class="inline-block margin-left white-text-color">Sun: Closed, Mon-Fri: 8 AM - 6 PM, Sat: 10 AM - 4 PM</h3>
-                        </div>
-                        <ul class="contact-margin-top">
+                        <!-- <ul class="contact-margin-top">
                             <li><a class="contact-soc-media-spacing" href="#" target="_blank"><img class="contact-soc-media-logo" src="/images/instagram-green.png"
                                         alt="instagram"></a></li>
                             <li><a class="contact-soc-media-spacing" href="#" target="_blank"><img class="contact-soc-media-logo" src="/images/twitter-green.png" alt="twitter"></a>
@@ -93,57 +94,66 @@
                             </li>
                             <li><a class="contact-soc-media-spacing" href="https://www.linkedin.com/company/we-uae/" target="_blank"><img class="contact-soc-media-logo"
                                         src="/images/linkedin-green.png" alt="linkedin"></a></li>
-                        </ul>
+                        </ul> -->
                     </div>
-                    <!-- <div id="map"></div> -->
-                    <a target="_blank"
-                        href="https://www.google.com/maps/place/University+of+Wollongong+in+Dubai+(UOWD)/@25.101547,55.1606414,17z/data=!3m1!4b1!4m5!3m4!1s0x3e5f6b6b665006a3:0x84337ef2f5567aa5!8m2!3d25.101547!4d55.1628301"><img
-                            id="map" src="/images/UOWD location.jpg"
-                            alt="UOWD Building - Dubai"></a>
+                    <div class="contact-map-container">
+                        <a target="_blank"
+                            href="https://www.google.com/maps/place/University+of+Wollongong+in+Dubai+(UOWD)/@25.101547,55.1606414,17z/data=!3m1!4b1!4m5!3m4!1s0x3e5f6b6b665006a3:0x84337ef2f5567aa5!8m2!3d25.101547!4d55.1628301"><img
+                                id="map" src="/images/UOWD location.jpg" alt="UOWD Building - Dubai"></a>
+                    </div>
                 </div>
-                <!-- Use Google Static Map Maker -->
-                <!-- <a target="_blank" href="https://www.google.com/maps/place/University+of+Wollongong+in+Dubai+(UOWD)/@25.101547,55.1606414,17z/data=!3m1!4b1!4m5!3m4!1s0x3e5f6b6b665006a3:0x84337ef2f5567aa5!8m2!3d25.101547!4d55.1628301"><img
-                        src="https://maps.googleapis.com/maps/api/staticmap?center=University+of+Wollongong+in+Dubai+(UOWD),+UOWD+Building+-+Dubai&zoom=13&scale=1&size=600x300&maptype=roadmap&key=AIzaSyA0hH7pDrmk3s4hvVnpiqn6QhRUbmX_dTc&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7CUOWD,+Dubai"
-                        alt="UOWD Building - Dubai"></a> -->
             </div>
         </section>
 
         <footer>
             <div class="footer-container">
-                <div class="footer-info-container">
-                    <div class="logo-container">
-                        <img class="we-logo" src="/images/WE program.png" alt="women empowerment logo">
-                        <h1 class="logo-title in-line footer-text-link">Women <br>Empowerment</h1>
+                <div class="footer-content-container">
+                    <div class="footer-left-content-container">
+                        <div class="logo-container">
+                            <a href="/index.html">
+                                <img class="we-logo" src="/images/WE program.png" alt="women empowerment logo">
+                            </a>
+                            <a href="/index.html">
+                                <h1 class="logo-title in-line golden-color">Women <br>Empowerment</h1>
+                            </a>
+                        </div>
+                        <nav class="nav-social">
+                            <ul>
+        
+                                <li><a href="#" target="_blank" class="footer-social"><img class="social-media-logo"
+                                            src="/images/twitter.png" alt="twitter"></a>
+                                </li>
+                                <li><a href="#" target="_blank" class="footer-social"><img class="social-media-logo"
+                                            src="/images/instagram.png" alt="instagram"></a>
+                                </li>
+                                <li><a href="#" target="_blank" class="footer-social"><img class="social-media-logo"
+                                            src="/images/facebook.png" alt="facebook"></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/company/we-uae/" target="_blank"
+                                        class="footer-social"><img class="social-media-logo" src="/images/linkedin.png"
+                                            alt="linkedin"></a></li>
+                            </ul>
+                        </nav>
+                        <h3 class="golden-color">© 2021 Women Empowerment</h3>
                     </div>
-                    <div class="nav-list">
-                        <h3 class="footer-text-link">Home</h3>
-                        <h3 class="footer-text-link">Features</h3>
-                        <h3 class="footer-text-link">Pricing</h3>
-                    </div>
-                    <div class="nav-list">
-                        <h3 class="footer-text-link">Home</h3>
-                        <h3 class="footer-text-link">Features</h3>
-                        <h3 class="footer-text-link">Pricing</h3>
-                    </div>
-                    <div class="nav-list">
-                        <h3 class="footer-text-nolink">UOWD - Building, Dubai Knowledge Village</h3>
-                        <h3 class="footer-text-nolink">+971543454345</h3>
-                        <h3 class="footer-text-link">women-empowerment@gmail.com</h3>
+                    <div class="footer-right-content-container">
+                        <div class="nav-list">
+                            <h3>Home</h3>
+                            <h3>Features</h3>
+                            <h3>Pricing</h3>
+                        </div>
+                        <div class="nav-list">
+                            <h3>Home</h3>
+                            <h3>Features</h3>
+                            <h3>Pricing</h3>
+                        </div>
+                        <div class="nav-list">
+                            <h3>UOWD - Building, Dubai Knowledge Village</h3>
+                            <h3>+971543454345</h3>
+                            <h3>women-empowerment@gmail.com</h3>
+                        </div>
                     </div>
                 </div>
-                <nav class="nav-social">
-                    <ul>
-                        <li><a href="#" target="_blank"><img class="social-media-logo" src="/images/instagram-green.png"
-                                    alt="instagram"></a></li>
-                        <li><a href="#" target="_blank"><img class="social-media-logo" src="/images/twitter-green.png"
-                                    alt="twitter"></a></li>
-                        <li><a href="#" target="_blank"><img class="social-media-logo" src="/images/facebook-green.png"
-                                    alt="facebook"></a></li>
-                        <li><a href="https://www.linkedin.com/company/we-uae/" target="_blank"><img
-                                    class="social-media-logo" src="/images/linkedin-green.png" alt="linkedin"></a></li>
-                    </ul>
-                </nav>
-                <h3 class="footer-text-nolink">© 2021 Women Empowerment</h3>
             </div>
         </footer>
     </div>
